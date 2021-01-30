@@ -41,4 +41,16 @@
 	 M94,279.5c-0.1,2.7-2.3,13.1,0.3,13.8 M183.3,270.5c0.2,0.6,2,18.9,1.8,21.6s15.9,0.8,35.2,1.2s31.9,2.8,39.1,0.4
 	c7.1-2.4,10.2-8.1,9.8-11c-0.4-2.8-2.2-2.2-16.3-3.1c-14-0.8-38.5-5.1-51.1-6.3c-12.6-1.2-17.3-6.1-18.9-8.3
 	C182.1,266.5,183.3,270.5,183.3,270.5z"/>
+	<defs>
+ 		<script>
+    		let theIcon = document.querySelector("#dogtor");
+
+    		function logMyId() {
+    			console.log('clicked on an image!');
+    			console.log(this.id);
+    		}
+
+    		theIcon.addEventListener("click", logMyId);
+    	</script>
+	</defs>
 </svg>

@@ -25,4 +25,16 @@
 	S26.8,250.2,29.2,250.2z M41.2,257.6c2.4,0,4.4,2,4.4,4.4s-2,4.4-4.4,4.4s-4.4-2-4.4-4.4S38.8,257.6,41.2,257.6z M55.9,263.6
 	c2.4,0,4.4,2,4.4,4.4s-2,4.4-4.4,4.4s-4.4-2-4.4-4.4S53.5,263.6,55.9,263.6z M72.1,268.5c2.4,0,4.4,2,4.4,4.4s-2,4.4-4.4,4.4
 	s-4.4-2-4.4-4.4S69.7,268.5,72.1,268.5z"/>
+	<defs>
+ 		<script>
+    		let theIcon = document.querySelector("#dog-glasses");
+
+    		function logMyId() {
+    			console.log('clicked on an image!');
+    			console.log(this.id);
+    		}
+
+    		theIcon.addEventListener("click", logMyId);
+    	</script>
+	</defs>
 </svg>
