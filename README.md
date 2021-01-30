@@ -1,11 +1,11 @@
 # SVG Icon Set
-An one-page website of cute dog icon collection!
+An one-page website of cute dog icon collection. Hover over the icons to see colour change effect!
 
 ## Prerequisites
 Only need a browser to open and look through the web page.
 
 ## Usage
-Clone this project, <kbd>cd</kbd> to your directory/download, and open index.html with your browser.
+Clone this project, <kbd>cd</kbd> to your directory/download, and open index.html with your browser. When hover over the icons, you could interact with them. Rightclick on the page, then open inspector, and you could find the id of eah icon in console window.
 
 ## License
 MIT License

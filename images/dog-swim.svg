@@ -26,4 +26,16 @@
 	c-5.6-0.3-11-0.3-16,0c0-0.8,0-1.7,0-2.5C261,67.3,208.8,16,144.6,16C84,16,34.1,61.8,27.6,120.7C23.6,119.5,17.9,119.8,11.5,120.8z
 	 M253.9,177.9c-17.5,43.2-59.8,73.7-109.2,73.7c-60.8,0-110.8-46-117.1-105.1c-5.1,0.5-10.5-0.3-16.2-2.1
 	c5.4,68.9,63,123.2,133.3,123.2c59.7,0,110.3-39.2,127.5-93.2C267,177.6,260.6,178,253.9,177.9z"/>
+	<defs>
+ 		<script>
+    		let theIcon = document.querySelector("#dog-swim");
+
+    		function logMyId() {
+    			console.log('clicked on an image!');
+    			console.log(this.id);
+    		}
+
+    		theIcon.addEventListener("click", logMyId);
+    	</script>
+	</defs>
 </svg>
