@@ -4,6 +4,8 @@
 	 width="277.1px" height="300px" viewBox="0 0 277.1 300" style="enable-background:new 0 0 277.1 300;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#ECB86A;}
+	.st0 { cursor: pointer; }
+	.st0:hover { fill: #ff8585 !important;}
 </style>
 <path class="st0" d="M105.5,188.1c4.4,3.7,23,15.3,21,14.7s-8.6,1.2-8.6,1.2c-22.8,2.2-31,30.8-34.4,44.4
 	c-3.5,13.7,13.7,51.2,13.7,51.2H85.7c0,0-14.5-42-13.9-49.5s7.3-40.8,23.6-60.7c-11.1-11.7-5.3-25.6-5.3-25.6
